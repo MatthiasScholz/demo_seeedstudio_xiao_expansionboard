@@ -2,7 +2,10 @@
 import busio
 import board
 
-# Import the SSD1306 module.
+# NOTE Requires the following modules on the device within the `lib` folder:
+# The modules are part of the Adafruit Library Bundle:
+# .adafruit_ssd1306.mpy
+# .adafruit_framebuf.mpy
 import adafruit_ssd1306
 
 # Create the SSD1306 OLED class.
