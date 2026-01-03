@@ -1,0 +1,2 @@
+CIRCUITPY_WIFI_SSID = "PrettyFlyForAWiFi"
+CIRCUITPY_WIFI_PASSWORD = "mysecretpassword"
