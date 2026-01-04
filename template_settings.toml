@@ -1,2 +1,4 @@
 CIRCUITPY_WIFI_SSID = "PrettyFlyForAWiFi"
 CIRCUITPY_WIFI_PASSWORD = "mysecretpassword"
+ADAFRUIT_AIO_USERNAME = "AdafruitIOPlatformUserName"
+ADAFRUIT_AIO_KEY      = "aio_adafruit_io_platform_key"
