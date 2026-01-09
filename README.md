@@ -15,6 +15,7 @@
   - interact with MQTT broker (publish and subscribe)
   - read data from environment sensor via I2C
   - control an LED
+- Uses [devenv](https://devenv.sh) for development environment setup
 
 ## References
 
