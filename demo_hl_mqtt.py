@@ -3,7 +3,6 @@
 # SPDX-License-Identifier: MIT
 
 import time
-from os import getenv
 
 # ----------
 # Connect to board
@@ -42,6 +41,7 @@ my_ip = hl_wifi.wifi_connect()
 # ----------
 # Setup MQTT
 import hl_mqtt
+from os import getenv
 
 # NOTE The current Adafruit IO Data Rate is
 #      at most 1 request per second (or 60 requests within 60 seconds),
@@ -99,6 +99,7 @@ mqtt_client.on_message = message
 print("Connecting to Adafruit IO...")
 mqtt_client.connect()
 text_area.text = "Connected to MQTT Broker"
+
 
 while True:
     # Poll the message queue
