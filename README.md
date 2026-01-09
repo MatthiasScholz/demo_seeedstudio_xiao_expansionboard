@@ -1,11 +1,20 @@
-# Camper Smart Switch
+# Demo Seeed Studio XIAO Expansion Board
 
-Using a micro controller to switch high power devices
-in the camper, e.g. warm water boiler.
+- [Seeed Studio XIAO Expansion Board Base](https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html)
+- [Seeed Studio XIAO ESP32-S3](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Pre-Soldered-p-6334.html)
+- [Seeed Studio Grove AHT20 Environment Sensor](https://www.seeedstudio.com/Grove-AHT20-I2C-Industrial-grade-temperature-and-humidity-sensor-p-4497.html)
+- [Seeed Studio Grove LED](https://www.seeedstudio.com/Grove-LED-Pack-p-4364.html) - NOTE: only used with 3.3V!
 
-## MQTT
+## Features
 
-- [Dashboard](https://io.adafruit.com/MatthiasScholz/dashboards/camper-smart-switch)
+- Use Seeed Studio XIAO Expansion Board Base with ESP32-S3
+- Examples using [CircuitPython](https://circuitpython.org)
+- Very basic high level abstraction libraries for:
+  - display usage for text output
+  - connect to wifi
+  - interact with MQTT broker (publish and subscribe)
+  - read data from environment sensor via I2C
+  - control an LED
 
 ## References
 
