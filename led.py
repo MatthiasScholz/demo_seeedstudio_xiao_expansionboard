@@ -6,7 +6,7 @@ import board
 from digitalio import DigitalInOut, Direction
 
 # LED Pin
-pin = board.DO  # depends on the connector
+pin = board.D0  # depends on the connector
 update_rate = 2  # in secs
 
 led = DigitalInOut(pin)
